@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Buscaminas</title>
+</head>
+<body>
+  
+  <div>
+    <h1>BUSCAMINAS</h1>
+    <button id="reg" style="margin: 0px 0px 10px 25% ;">Reglas del juego</button>
+  </div>
+  <div class="reglas">
+    <p>
+      <h4>REGRAS DEL JUEGO:</h4>
+
+      <p>
+        El juego consiste en despejar todas 
+        las casillas de una pantalla que no 
+        oculten una mina.
+      </p>
+      <p>
+        Algunas casillas tienen un número, 
+        este número indica las minas que son 
+        en todas las casillas circundantes. 
+        Así, si una casilla tiene el número 3, 
+        significa que de las ocho casillas que 
+        hay alrededor (si no es en una esquina 
+        o borde) hay 3 con minas y 5 sin minas.
+      </p>
+      <p>
+        Algunas casillas tienen un número, 
+        este número indica las minas que son 
+        en todas las casillas circundantes. 
+        Así, si una casilla tiene el número 3, 
+        significa que de las ocho casillas que 
+        hay alrededor (si no es en una esquina 
+        o borde) hay 3 con minas y 5 sin minas.
+      </p>
+      <p>
+        Si se descubre una casilla con una mina 
+        se pierde la partida.
+      </p>
+      <p>      
+        Se puede poner una marca en las casillas 
+        que el jugador piensa que hay minas para 
+        ayudar a descubrir la que están cerca.
+      </p>
+      <h5><pre>Quien descubra todas las casillas si mina    </pre> !!! GANA !!!</h5>
+    </p>
+  </div>
+  <div class="board"></div>
+  <div class="counters">
+    
+    <div id="flag-counter">Banderas: 0</div>
+    <div id="mine-counter">Minas restantes: 20</div>
+    <div id="timer">Tiempo: 00</div>
+    <div id="no-games">Numero de Juegos: 00:00</div>
+  </div>
+  <script src="game.js"></script>
+</body>
+<footer>
+  <h6>Realizado por RAYDEL RODRIGUEZ ESTEVEZ</h6>
+</footer>
+</html>
